@@ -17,9 +17,24 @@
 
 <!-- ! git log -->
 <!-- ! git log --oneline -->
-<!-- * git branch -M main    *changes branch name (from master perhaps) to main -->
+<!-- * git branch -m main    *changes branch name (from master perhaps) to main -->
 <!-- ! git branch <branch name> -->
 <!-- ! git checkout <branch name> -->
 <!-- ! git checkout -b <branch name>    *shorthand to create a branch and checkout into it -->
+
 <!-- ! git config --global init.defaultBranch main (this will make future master branches named main instead - if this works) -->
+<!-- ! git branch -m <branch name>    (to change a branch name) -->
+<!-- ! git branch -M <branch name>    (to change a branch name - but with the capital -M if this branch name already exists it may overwrite the branch!!!) -->
+
 <!-- ! git branch -d <branch_name>    *deletes a branch if you're not on the one you're deleting -->
+
+<!-- ? Pushing to GitHub -->
+<!-- ! git remote add origin https://github.com/Jaxeus/git-2.0.git (used to manage remote repository - for backup purposes, usually) -->
+
+<!-- ! git remote -v    (to check the version of our remote origin) -->
+
+<!-- * git fetch (automatically called when we git pull) -->
+
+<!-- ! git branch -m main (may need to do this before pushing to GitHub) -->
+
+<!-- ! git push -u <remote> <branch>    (-u is --set-upstream, this sets and pushes to the remote branch you specify) -->
